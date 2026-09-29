@@ -1,10 +1,10 @@
 # Signal Representations and Inverse Problems
 
-*Représentation des signaux et problèmes inverses — Centrale Lille*
-
 Jupyter notebooks covering time-frequency analysis, wavelets, sparse source separation, and gradient-based methods for inverse problems.
 
 This repository contains four practical sessions from the **Signal Representations and Inverse Problems** course at Centrale Lille (groups G1–G2). The notebooks, explanations, figures, and answers are written in English.
+
+![Spectrogram of the bird song recording (Lab 1)](docs/bird-spectrogram.png)
 
 ## Contents
 
@@ -27,7 +27,7 @@ This repository contains four practical sessions from the **Signal Representatio
 The reference environment uses **Python 3.12**.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/signal-representations-and-inverse-problems.git
+git clone https://github.com/ugo-roccamatisi/signal-representations-and-inverse-problems.git
 cd signal-representations-and-inverse-problems
 
 python -m venv .venv
@@ -85,6 +85,13 @@ The parameter searches in Lab 2 and the 5,000 iterations in Lab 4 are the most t
 - WAV files were normalised to remove warnings caused by non-audio chunks.
 - Parameters selected by maximising PSNR in Lab 2 are explicitly identified as **oracle settings**, because they use the clean reference image.
 
+## Gallery
+
+| | |
+|---|---|
+| ![Wavelet denoising](docs/wavelet-denoising.jpg) | ![Spectrogram of a source to separate](docs/source-spectrogram.png) |
+| ![Mixing directions in the time-frequency domain](docs/mixing-directions.png) | ![Inpainting from 10% of the pixels (Lab 4)](docs/inpainting.jpg) |
+
 ## Provenance
 
 The notebooks were reconstructed from the original lab reports, then rewritten and verified using the figures and numerical values generated from the resources in this repository.
@@ -95,6 +102,8 @@ Some original course files were unavailable and have been replaced with syntheti
 
 This repository is intended as a learning and reproducibility resource. Before publicly distributing course material, data, or third-party assets, check the institution's publication rules and the rights associated with each resource.
 
-## Licence
+## License
 
-No licence is included by default because the repository contains course resources and data that may be governed by different terms. Add a licence only after confirming which materials you are allowed to redistribute.
+No license is included by default because the repository contains course resources and data that may be governed by different terms. Add a license only after confirming which materials you are allowed to redistribute.
+
+Part of my [portfolio](https://ugo-roccamatisi.github.io).
