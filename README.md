@@ -72,8 +72,6 @@ The parameter searches in Lab 2 and the 5,000 iterations in Lab 4 are the most t
 ├── lab4/                 # Gradient descent, denoising, and inpainting
 │   ├── lab4.ipynb
 │   └── img/
-├── tools/                # Resource generation and download scripts
-├── DATA_SOURCES.md
 └── requirements.txt
 ```
 
@@ -96,7 +94,7 @@ The parameter searches in Lab 2 and the 5,000 iterations in Lab 4 are the most t
 
 The notebooks were reconstructed from the original lab reports, then rewritten and verified using the figures and numerical values generated from the resources in this repository.
 
-Some original course files were unavailable and have been replaced with synthetic substitutes. Their status and provenance are documented in [`DATA_SOURCES.md`](DATA_SOURCES.md).
+Some original course files were unavailable: the two Lab 1 music recordings and `signal_2sinus.mat` are synthetic substitutes, and `module_TDS.py`, `plotwavelet.py` and `nt_toolbox/` are rewritten versions of the course modules. The Boat image comes from the USC-SIPI database.
 
 ## Academic use
 
